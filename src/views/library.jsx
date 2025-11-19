@@ -6,7 +6,7 @@ import autoTable from "jspdf-autotable";
 
 function Library() {
   // 🔹 URL de la API
-  const URL_API = "http://localhost:3000";
+  const URL_API = "https://backend-gamer-zone.onrender.com";
 
   // 🔹 Estados
   const [juegos, setJuegos] = useState([]);

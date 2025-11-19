@@ -42,7 +42,7 @@ function Auth() {
     setMsg("");
 
     try {
-      const res = await fetch("http://localhost:3000/auth/login", {
+      const res = await fetch("https://fronted-gamer-zone-3bavocrva-lucho1699s-projects.vercel.app/auth", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(loginForm),
@@ -81,7 +81,7 @@ function Auth() {
     setMsg("");
 
     try {
-      const res = await fetch("http://localhost:3000/auth/register", {
+      const res = await fetch("https://fronted-gamer-zone-3bavocrva-lucho1699s-projects.vercel.app/auth", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(registerForm),

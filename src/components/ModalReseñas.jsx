@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 
 
 function ModalReseñas({ juegoId, gamename, onClose }) {
-  const URL_API = "http://localhost:3000";
+  const URL_API = "https://fronted-gamer-zone-3bavocrva-lucho1699s-projects.vercel.app/auth";
   const token = localStorage.getItem('token');
 
   const [resenas, setResenas] = useState([]);

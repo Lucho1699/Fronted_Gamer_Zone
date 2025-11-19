@@ -42,7 +42,7 @@ function Auth() {
     setMsg("");
 
     try {
-      const res = await fetch("https://backend-gamer-zone.onrender.com", {
+      const res = await fetch("https://backend-gamer-zone.onrender.com/auth/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(loginForm),
@@ -81,7 +81,7 @@ function Auth() {
     setMsg("");
 
     try {
-      const res = await fetch("hhttps://backend-gamer-zone.onrender.com", {
+      const res = await fetch("https://backend-gamer-zone.onrender.com/auth/register", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(registerForm),
